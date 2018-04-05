@@ -1,5 +1,5 @@
 # ElectronBoilerplate
-Basic modular structure to create desktop apps with Angular, NEdb and Electron
+Basic modular structure to create desktop apps with Angular, NEdb and Electron.
 
 
 # Built With
