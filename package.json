@@ -1,5 +1,5 @@
 {
-  "name": "ElectronApp",
+  "name": "electronapp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,9 +14,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "windows":"electron-packager ./ eletronApp --executableName=eletronApp --icon=assets/images/icon.ico --platform=win32 --electron-version=1.4.15",
-    "linux":  "electron-packager ./ eletronApp --executableName=eletronApp --platform=linux --electron-version=1.4.15",
-    "osx":    "electron-packager ./ eletronApp --executableName=eletronApp --platform=darwin --electron-version=1.4.15"
+    "windows": "electron-packager ./ eletronApp --executableName=eletronApp --icon=assets/images/icon.ico --platform=win32 --electron-version=1.4.15",
+    "linux": "electron-packager ./ eletronApp --executableName=eletronApp --platform=linux --electron-version=1.4.15",
+    "osx": "electron-packager ./ eletronApp --executableName=eletronApp --platform=darwin --electron-version=1.4.15"
   },
   "author": "thiagohagy@hotmail.com",
   "license": "ISC"

@@ -58,7 +58,7 @@ function ServiceModel(myConfig, $q) {
 
                     Model.update(where, doc, function (err, updateDoc) {
                         if (!err) {
-                            d.resolve({ data: updateDoc, msg: 'Serviço atualizado com sucesso', success: true });
+                            d.resolve({ data: updateDoc, msg: 'Service updated', success: true });
                         } else {
                             d.resolve({ data: '', msg: err, success: false });
                         }

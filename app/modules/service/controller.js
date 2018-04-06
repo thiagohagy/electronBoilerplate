@@ -58,7 +58,7 @@ function ServiceController($state, $stateParams, ServiceModel, toaster) {
                 });
             }
         } else {
-            toaster.pop('error', 'Atenção!!!', 'Insira a descrição');
+            toaster.pop('error', 'Atenção!!!', 'Insert description');
         }
     }
 
