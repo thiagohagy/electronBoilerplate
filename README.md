@@ -24,6 +24,7 @@ Run:
 # Packaging
 
 Just run : **npm run {windows, linux or osx}** from the app folder
+
 Ps: Could not test osx
 
 # Run localy
