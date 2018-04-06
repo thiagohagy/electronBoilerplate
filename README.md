@@ -13,7 +13,12 @@ To create this structure I used:
 
 # Packaging
 
-Just run : **npm run build** from the app folder
+Just run : **npm run {windows, linux or osx}** from the app folder
+Ps: Could not test osx
+
+# Run localy
+
+Execute **electron index.js** from app folder, you need [electron](https://electronjs.org/blog/npm-install-electron)  installed.
 
 # License
 

@@ -1,0 +1,49 @@
+
+
+<div class="row form-group">
+	<h4 class="col-md-12">Client details</h4>
+
+	<form>
+		<div class="col-sm-12 col-md-12 col-lg-12">
+			<label for="nome">Register date</label>
+			<p>{{vm.form.created | brDate }}</p>
+		</div>
+
+		<div class="col-sm-12 col-md-12 col-lg-12">
+			<label for="nome">Name</label>
+			<p>{{vm.form.nome}}</p>
+		</div>
+
+		<div class="col-sm-12 col-md-12 col-lg-12">
+			<label for="nome">Address</label>
+			<p>{{vm.form.endereco}} - {{vm.form.cidadeEstado}}</p>
+		</div>
+
+		<div ng-if='vm.form.obs' class="col-sm-12 marginTop10">
+			<label for="nome">Obs</label>
+			<p>{{vm.form.obs}}</p>
+		</div>
+
+		<div class="divider"></div>
+
+		<div class="col-sm-12 marginTop10">
+			<label>Contacts</label>
+			<div class="col-sm-12">
+				<div ng-repeat="contato in vm.form.contatos" class=" col-sm-12 marginTop10 ">
+					<blockquote>
+						{{contato.nome}} :
+						{{contato.telefone | phone}}
+					</blockquote>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm-12 text-right">
+			<a href="#" class="btn btn-sm btn-info" ui-sref='clientEdit({id:vm.form._id})'>Edit</a>
+			<a href="#" class="btn btn-sm btn-default" ui-sref='client()'>Go to list</a>
+		</div>
+
+
+	</form>
+</div>
+

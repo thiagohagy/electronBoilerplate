@@ -1,0 +1,52 @@
+#viewBody {
+	margin-top: 60px !important;
+}
+body{
+	/*background-color: #E6F2FF;*/
+}
+
+.marginTop10 {
+	margin-top: 10px
+}
+
+.divider{
+    width: 100%;    border-top: 1px solid #ccc;    margin: 10px 0px;    float: left;
+}
+
+.nomargin {
+	padding: 0px; margin: 0px
+}
+
+div {
+	margin-bottom: 5px
+}
+
+.redAlert{
+	color: red
+}
+
+.form-control{
+	padding: 2px 2px
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #print, #print * {
+    visibility: visible;
+  }
+  #print .btn {
+    visibility: hidden;
+  }
+  #print {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+
+.alert-small {
+  padding: 2px !important;
+  margin:  2px !important;
+}

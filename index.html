@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Oficina do Chicão</title>
+
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/custom.css">
+		<link rel="stylesheet" href="bower_components/AngularJS-Toaster/toaster.min.css">
+		<link rel="stylesheet" href="bower_components/angular-bootstrap/ui-bootstrap-csp.css">
+
+	</head>
+
+	<body ng-app='app'>
+
+		<toaster-container></toaster-container>
+
+		<div  ui-view="nav"></div>
+
+		<div class="container-fluid">
+        	<div class="row">
+            	<div class="col-md-12 col-lg-12 col-sm-12" >
+            		<div id='viewBody' ui-view='body' > </div>
+            	</div>
+        	</div>
+    	</div>
+
+	</body>
+
+    <script>
+		window.$ = window.jQuery = require('./bower_components/jquery/dist/jquery.min.js'); // to work with electron
+	</script>
+
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+
+    <script type="text/javascript" src="bower_components/angular-animate/angular-animate.min.js"></script>
+    <script type="text/javascript" src="bower_components/AngularJS-Toaster/toaster.min.js"></script>
+
+    <script type="text/javascript" src="bower_components/ng-lodash/build/ng-lodash.min.js"></script>
+
+    <script type="text/javascript" src="bower_components/async/dist/async.min.js"></script>
+
+    <script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<script type="text/javascript" src="bower_components/angular-input-masks/angular-input-masks-standalone.js"></script>
+
+	<script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+	<script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+
+	<script type="text/javascript" src='bower_components/moment/min/moment.min.js'></script>
+	<script type="text/javascript" src='bower_components/moment/locale/pt.js'></script>
+
+	<script type="text/javascript" src="app/modules/client/module.js"></script>
+	<script type="text/javascript" src="app/modules/client/model.js"></script>
+	<script type="text/javascript" src="app/modules/client/controller.js"></script>
+
+	<script type="text/javascript" src="app/modules/service/module.js"></script>
+	<script type="text/javascript" src="app/modules/service/model.js"></script>
+	<script type="text/javascript" src="app/modules/service/controller.js"></script>
+
+	<script type="text/javascript" src="app.module.js"></script>
+	<script type="text/javascript" src="app/core/filters.js"></script>
+
+	<script type="text/javascript" src="app/templates/nav.controller.js"></script>
+
+
+
+
+</html>

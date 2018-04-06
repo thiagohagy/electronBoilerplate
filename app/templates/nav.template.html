@@ -1,0 +1,27 @@
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" ui-sref="client()">App</a>
+    </div>
+
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Clients <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a ui-sref="client()">All</a></li>
+            <li><a ui-sref="clientAdd()">New</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a ui-sref="service()">All</a></li>
+            <li><a ui-sref="serviceAdd()">New</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

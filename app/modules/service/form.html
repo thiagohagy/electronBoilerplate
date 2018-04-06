@@ -1,0 +1,28 @@
+
+
+<div class="row form-group">
+	<h4 class="col-md-12">Add new service</h4>
+
+	<form>
+		<div class="col-sm-12 col-md-12 col-lg-12 marginTop10">
+			<div class="col-sm-6 col-md-6 col-lg-6">
+				<label for="nome">Code</label>
+				<input type="text" class="form-control" id="nome" placeholder="Service code" ng-model='vm.form.codigo'>
+			</div>
+
+			<div class="col-sm-6 col-md-6 col-lg-6">
+				<label for="nome">Description</label>
+				<input type="text" class="form-control" id="nome" placeholder="Description" ng-model='vm.form.descricao'>
+			</div>
+		</div>
+
+		<div class="divider"></div>
+
+		<div class="col-sm-12 text-right">
+			<button class="btn btn-success btn-md marginTop10" ng-click='vm.save()'>Save</button>
+			<a class="btn btn-danger btn-md marginTop10" ui-sref='service()'>Cancel</a>
+		</div>
+
+	</form>
+</div>
+
