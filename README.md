@@ -5,11 +5,21 @@ Basic modular structure to create desktop apps with Angular, NEdb and Electron.
 # Built With
 To create this structure I used:
 
-+ [Electron](https://angularjs.org/)
++ [electron](https://angularjs.org/)
 
-+ [Angular](https://angularjs.org/)
++ [angular](https://angularjs.org/)
 
 + [neDb](https://github.com/louischatriot/nedb/)
+
++ [electron-packager](https://github.com/electron-userland/electron-packager)
+
+# Get started
+Run:
++ *bower install*
+
++ *npm install*
+
++ *electron index.js*
 
 # Packaging
 
